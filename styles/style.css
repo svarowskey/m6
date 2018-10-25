@@ -1,6 +1,27 @@
+body {
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr; }
+
 .container {
+  grid-column-start: 2;
   display: grid;
   grid-template-rows: 210px 1fr 60px; }
+
+.b-header {
+  position: relative;
+  height: 205px; }
+
+.b-hr-vertical {
+  height: fit-content;
+  width: 1px;
+  border: none; }
+
+.b-header_hr_theme-default {
+  height: 5px;
+  background-color: #81b300;
+  border: none;
+  width: 100%;
+  margin: 0; }
 
 .b-logo_primary-text {
   font-family: Georgia, sans-serif;
@@ -8,6 +29,9 @@
   font-size: 36px;
   font-weight: 400;
   line-height: 36px; }
+  .b-logo_primary-text:first-letter {
+    font-size: 46px;
+    line-height: 46px; }
 
 .b-logo_secondary-text {
   font-family: Georgia, sans-serif;
@@ -17,7 +41,8 @@
   line-height: 12px; }
 
 .b-logo_left {
-  margin: 28px 0 0 34px; }
+  margin: 28px 0 0 34px;
+  float: left; }
 
 .b-social-menu {
   width: fit-content; }
@@ -34,18 +59,27 @@
   text-align: center;
   line-height: 32px; }
 
-.b-social-menu_right {
-  float: right;
-  margin-right: 50px; }
-
 .b-social-menu_theme-default {
   background: #81b300;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  padding: 10px 13px; }
+  padding: 10px 5px;
+  margin: 0; }
+
+.b-social-menu_item_theme-default {
+  margin: 0 8px; }
+  .b-social-menu_item_theme-default:hover .b-social-menu_link_theme-default {
+    background: #00acee; }
 
 .b-social-menu_link_theme-default {
   background: #1f1f1f;
   border-radius: 50%; }
+
+.b-social-menu_right {
+  float: right;
+  margin-right: 50px; }
+
+.b-header__secondary-menu_item-default {
+  display: inline-block; }
 
 /*# sourceMappingURL=style.css.map */

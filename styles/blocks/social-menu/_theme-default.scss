@@ -2,7 +2,20 @@
   background: #81b300;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  padding: 10px 13px;
+  padding: 10px 5px;
+  margin: 0;
+}
+
+.b-social-menu_item_theme-default {
+  margin: 0 8px;
+
+  &:hover {
+    .b-social-menu_link_theme-default{
+      background: #00acee;
+    }
+  }
+
+
 }
 
 .b-social-menu_link_theme-default {
