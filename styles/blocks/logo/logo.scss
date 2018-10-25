@@ -1,0 +1,19 @@
+$font-family: Georgia, sans-serif;
+
+.b-logo_primary-text {
+  font-family: $font-family;
+  color:  #333333;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.b-logo_secondary-text {
+  font-family: $font-family;
+  color:  #999999;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+}
+
+@import "left";

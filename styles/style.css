@@ -1,0 +1,51 @@
+.container {
+  display: grid;
+  grid-template-rows: 210px 1fr 60px; }
+
+.b-logo_primary-text {
+  font-family: Georgia, sans-serif;
+  color: #333333;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px; }
+
+.b-logo_secondary-text {
+  font-family: Georgia, sans-serif;
+  color: #999999;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px; }
+
+.b-logo_left {
+  margin: 28px 0 0 34px; }
+
+.b-social-menu {
+  width: fit-content; }
+
+.b-social-menu_item {
+  display: inline-block;
+  list-style-type: none; }
+
+.b-social-menu_link {
+  display: block;
+  color: #fff;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px; }
+
+.b-social-menu_right {
+  float: right;
+  margin-right: 50px; }
+
+.b-social-menu_theme-default {
+  background: #81b300;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  padding: 10px 13px; }
+
+.b-social-menu_link_theme-default {
+  background: #1f1f1f;
+  border-radius: 50%; }
+
+/*# sourceMappingURL=style.css.map */
