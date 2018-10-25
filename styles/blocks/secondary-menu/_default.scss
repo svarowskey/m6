@@ -1,3 +1,11 @@
-.b-header__secondary-menu_item-default {
+.b-secondary-menu_default {
+  padding: 0;
+}
+
+.b-secondary-menu_item_default {
   display: inline-block;
+}
+
+.b-secondary-menu_hr {
+  background-color: #81b300;
 }

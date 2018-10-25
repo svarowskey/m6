@@ -1,4 +1,4 @@
-.b-social-menu_theme-default {
+.b-social-menu_theme_default {
   background: #81b300;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -6,11 +6,11 @@
   margin: 0;
 }
 
-.b-social-menu_item_theme-default {
+.b-social-menu_item_theme_default {
   margin: 0 8px;
 
   &:hover {
-    .b-social-menu_link_theme-default{
+    .b-social-menu_link_theme_default{
       background: #00acee;
     }
   }
@@ -18,7 +18,7 @@
 
 }
 
-.b-social-menu_link_theme-default {
+.b-social-menu_link_theme_default {
   background: #1f1f1f;
   border-radius: 50%;
 }
