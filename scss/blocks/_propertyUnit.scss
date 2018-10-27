@@ -1,0 +1,36 @@
+.b-propertyUnit {
+  text-align: center;
+
+  &__icon {
+    font-size: 6rem;
+
+    &_users {
+      color:  #c45f4b;
+    }
+
+    &_world {
+      color: #cf9d41;
+    }
+
+    &_settings {
+      color:  #3d5f12;
+    }
+
+    &_leaf {
+      color:  #7da3b7;
+    }
+  }
+
+  &__head {
+    font-size: 18px;
+    color: $major-color;
+    padding: 20px;
+  }
+
+  &__desc {
+    color:  #888888;
+    font-size: 13px;
+    text-align: justify;
+    padding: 0 5px;
+  }
+}

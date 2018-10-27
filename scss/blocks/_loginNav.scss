@@ -1,0 +1,27 @@
+.b-loginNav {
+  width: 253px;
+  height: 13px;
+  color: $major-color;
+  display: flex;
+  justify-content: space-between;
+
+  &_siteHeader{
+    position: absolute;
+    right: 20px;
+    top: 85px;
+  }
+
+  &__item {
+    color: $major-color;
+    font-size: 12px;
+
+    &:hover {
+      color: #000;
+    }
+  }
+
+  &__line {
+    position: relative;
+    top: -3px;
+  }
+}

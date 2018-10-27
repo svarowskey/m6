@@ -1,0 +1,20 @@
+.b-mainNav {
+  padding: 30px;
+  background-color: $major-color;
+  margin: 0 -15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__item {
+    padding-right: 15px;
+    transition: .5s;
+    color: #fff;
+
+    &:hover {
+      color: black;
+      text-decoration: none;
+    }
+  }
+
+}

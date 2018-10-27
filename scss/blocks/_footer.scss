@@ -1,0 +1,85 @@
+.b-footer {
+  background-color: #3b3b3b;
+  padding: 40px 30px;
+  color:  #999999;
+
+  &__unitTitle {
+    color:  #666666;
+    margin-bottom: 30px;
+  }
+
+  &__unitContactDesc {
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+
+  &__quickLink {
+    color:  #999999;
+    transition: .5s;
+
+    &:hover {
+      color: $major-color;
+      text-decoration: none;
+    }
+  }
+
+  &__quickDevider {
+    height: 1px;
+    background-color: #555;
+    margin: 10px 0;
+  }
+
+  &__blogTitle {
+    font-weight: bold;
+  }
+
+  &__blogText {
+    text-align: justify;
+  }
+
+  &__blogMore {
+    color: $major-color;
+    text-align: right;
+    display: block;
+    transition: .5s;
+
+    &:hover {
+      color: #fff;
+    }
+
+    &_margin {
+      margin-top: 10px;
+    }
+  }
+
+  &__grabInput {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color:  #1f1f1f;
+    color: #999999;
+    transition: .5s;
+    outline: none;
+
+    &:focus {
+      color: $major-color;
+      box-shadow: 0 0 0 2px $major-color;
+    }
+  }
+
+  &__grabBtn {
+    background-color:  #1f1f1f;
+    border: none;
+    border-radius: 5px;
+    color: $major-color;
+    padding: 8px 15px;
+
+    &:hover {
+      cursor: pointer;
+      color: #fff;
+    }
+  }
+}

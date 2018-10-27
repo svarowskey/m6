@@ -1,0 +1,20 @@
+.b-logoAndSlogan {
+
+  &_siteHeader {
+    position: absolute;
+    top: 20px;
+    left: 18px;
+  }
+
+  &__logo {
+    color:  #333333;
+    font-size: 46px;
+    font-variant: small-caps;
+  }
+
+  &__slogan {
+    color:  #999999;
+    font-size: 12px;
+  }
+
+}
