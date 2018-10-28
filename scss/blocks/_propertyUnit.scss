@@ -1,6 +1,12 @@
 .b-propertyUnit {
   text-align: center;
 
+  &:nth-child(n+3){
+    @include media-breakpoint-down(lg) {
+      margin-top: 30px;
+    }
+  }
+
   &__icon {
     font-size: 6rem;
 
