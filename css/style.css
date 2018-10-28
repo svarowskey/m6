@@ -6784,7 +6784,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: "Georgia Regular", sans-serif;
   src: url("../fonts/Georgia_Regular.ttf"); }
 .b-header {
-  height: 135px;
+  height: 140px;
   position: relative; }
 
 .b-logoAndSlogan_siteHeader {
@@ -6810,7 +6810,9 @@ a.text-dark:hover, a.text-dark:focus {
     position: absolute;
     right: 20px;
     border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px; }
+    border-bottom-right-radius: 15px;
+    top: -34px;
+    transition: top 0.5s ease-out; }
   .b-socials__link {
     color: #fff;
     display: block;
@@ -6834,6 +6836,9 @@ a.text-dark:hover, a.text-dark:focus {
       background-color: #ee802f; }
   .b-socials__icon {
     line-height: 30px; }
+
+.b-socials_siteHeader:hover {
+  top: 0; }
 
 .b-loginNav {
   width: 253px;

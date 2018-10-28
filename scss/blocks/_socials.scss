@@ -11,6 +11,8 @@
     right: 20px;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    top: -34px;
+    transition: top .5s ease-out;
   }
 
   &__link {
@@ -47,4 +49,8 @@
   &__icon {
     line-height: 30px;
   }
+}
+
+.b-socials_siteHeader:hover {
+  top: 0;
 }
